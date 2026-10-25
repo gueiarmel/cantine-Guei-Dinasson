@@ -29,12 +29,12 @@ else {
          console.log("prix unitaire :" , prixUnitaire , "FCFA" )
      }
 //     // Créer la fonction de calcul
-//     function 
-//     calculerTotal(prixUnitaire, quantite) { 
-//     return prixUnitaire * quantite;
-//     }
-//     // Calculer le montant total
-//     const total = calculerTotal(prixUnitaire, quantite);
+    function 
+    calculerTotal(prixUnitaire, quantite) { 
+     return prixUnitaire * quantite;
+    }
+    // Calculer le montant total
+     const total = calculerTotal(prixUnitaire, quantite);
 
 //     // le recapitulatif
 //     console.log("==== CAISSE DE LA CANTINE ====");
