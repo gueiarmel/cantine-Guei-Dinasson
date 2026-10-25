@@ -22,9 +22,40 @@ else {
         prixUnitaire = 1000;
     }
    
-    // le plat choisi
-    if(codePlat >= 1 && codePlat <= 3){
-        console.log(` client : ${client}`);
-        console.log("plat choisi :", nomPlat);
-        console.log("prix unitaire :" , prixUnitaire , "FCFA" )
-    }
+//     // le plat choisi
+//     if(codePlat >= 1 && codePlat <= 3){
+//         console.log(` client : ${client}`);
+//         console.log("plat choisi :", nomPlat);
+//         console.log("prix unitaire :" , prixUnitaire , "FCFA" )
+//     }
+//     // Créer la fonction de calcul
+//     function 
+//     calculerTotal(prixUnitaire, quantite) { 
+//     return prixUnitaire * quantite;
+//     }
+//     // Calculer le montant total
+//     const total = calculerTotal(prixUnitaire, quantite);
+
+//     // le recapitulatif
+//     console.log("==== CAISSE DE LA CANTINE ====");
+//     console.log(`Client : ${client}`)
+//     console.log(`Plat choisi par ${client} : ${nomPlat}`);
+//     for (let i = 1; i <= quantite; i++) {
+//         console.log(
+//             `Portion ${i} : ${nomPlat} - ${prixUnitaire} FCFA`)
+//     }
+//     console.log(`Quantité" : ${quantite}`);
+//     console.log(`Total à payer : ${total} FCFA`);
+
+//     // Vérification du paiement
+//     if (montantVerse >= total) {
+//         const monnaie = montantVerse - total;
+//         console.log(`Montant versé : ${montantVerse} FCFA`);
+//         console.log(`Monnaie à rendre : ${monnaie} FCFA`);
+//     } else {
+//         const manque = total - montantVerse;
+//         console.log(`montant manquant : ${manquant} FCFA`)
+        
+
+
+//     }
