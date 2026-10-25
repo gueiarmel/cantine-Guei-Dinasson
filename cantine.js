@@ -23,11 +23,11 @@ else {
     }
    
 //     // le plat choisi
-//     if(codePlat >= 1 && codePlat <= 3){
-//         console.log(` client : ${client}`);
-//         console.log("plat choisi :", nomPlat);
-//         console.log("prix unitaire :" , prixUnitaire , "FCFA" )
-//     }
+    if(codePlat >= 1 && codePlat <= 3){
+         console.log(` client : ${client}`);
+         console.log("plat choisi :", nomPlat);
+         console.log("prix unitaire :" , prixUnitaire , "FCFA" )
+     }
 //     // Créer la fonction de calcul
 //     function 
 //     calculerTotal(prixUnitaire, quantite) { 
