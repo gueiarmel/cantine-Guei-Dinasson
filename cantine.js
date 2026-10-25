@@ -37,15 +37,15 @@ else {
      const total = calculerTotal(prixUnitaire, quantite);
 
 //     // le recapitulatif
-//     console.log("==== CAISSE DE LA CANTINE ====");
-//     console.log(`Client : ${client}`)
-//     console.log(`Plat choisi par ${client} : ${nomPlat}`);
-//     for (let i = 1; i <= quantite; i++) {
-//         console.log(
-//             `Portion ${i} : ${nomPlat} - ${prixUnitaire} FCFA`)
-//     }
-//     console.log(`Quantité" : ${quantite}`);
-//     console.log(`Total à payer : ${total} FCFA`);
+   console.log("==== CAISSE DE LA CANTINE ====");
+     console.log(`Client : ${client}`)
+    console.log(`Plat choisi par ${client} : ${nomPlat}`);
+     for (let i = 1; i <= quantite; i++) {
+         console.log(
+            `Portion ${i} : ${nomPlat} - ${prixUnitaire} FCFA`)
+   }
+     console.log(`Quantité" : ${quantite}`);
+     console.log(`Total à payer : ${total} FCFA`);
 
 //     // Vérification du paiement
 //     if (montantVerse >= total) {
